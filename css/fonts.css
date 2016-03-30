@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'juramedium';
+    src: url('../fonts/juramedium-webfont.eot');
+    src: url('../fonts/juramedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/juramedium-webfont.woff2') format('woff2'),
+         url('../fonts/juramedium-webfont.woff') format('woff'),
+         url('../fonts/juramedium-webfont.ttf') format('truetype'),
+         url('../fonts/juramedium-webfont.svg#juramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '3_times_recycled_old_newspaRg';
+    src: url('../fonts/3_times_recycled_old_newspaper-webfont.eot');
+    src: url('../fonts/3_times_recycled_old_newspaper-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/3_times_recycled_old_newspaper-webfont.woff2') format('woff2'),
+         url('../fonts/3_times_recycled_old_newspaper-webfont.woff') format('woff'),
+         url('../fonts/3_times_recycled_old_newspaper-webfont.ttf') format('truetype'),
+         url('../fonts/3_times_recycled_old_newspaper-webfont.svg#3_times_recycled_old_newspaRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antic_didoneregular';
+    src: url('../fonts/anticdidone-regular-webfont.eot');
+    src: url('../fonts/anticdidone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/anticdidone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/anticdidone-regular-webfont.woff') format('woff'),
+         url('../fonts/anticdidone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/anticdidone-regular-webfont.svg#antic_didoneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'elemental_endregular';
+    src: url('../fonts/elemental_end-webfont.eot');
+    src: url('../fonts/elemental_end-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/elemental_end-webfont.woff2') format('woff2'),
+         url('../fonts/elemental_end-webfont.woff') format('woff'),
+         url('../fonts/elemental_end-webfont.ttf') format('truetype'),
+         url('../fonts/elemental_end-webfont.svg#elemental_endregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular');
+}

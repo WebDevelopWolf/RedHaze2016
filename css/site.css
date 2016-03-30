@@ -1,0 +1,37 @@
+@import 'fonts.css';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    padding: 25px 80px 0px 80px;
+    color: #8a0707;
+    letter-spacing: 0.2em;
+    font-variant: small-caps;
+}
+
+.logo {
+    font-family: 'elemental_endregular';
+    font-size:35px;
+}
+
+nav {
+    margin-top:10px;
+}
+
+nav a {
+    font-family: 'PT Sans', sans-serif;
+    font-size:20px;
+    margin-right:70px;
+    color: #8a0707;
+}
+
+nav a:hover {
+    color: #660808;
+}
+
+nav a:last-child {
+    margin-right:0px;
+}
