@@ -7,14 +7,16 @@ html, body, .container-fluid {
 
 body {
     display: block;
-    background-color: #FFF;
+    background:#FFF;
     overflow-x: hidden;
     overflow-y: auto;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
+}
+
+.container-fluid {
+    padding-right:0px;
+    padding-left:0px;
 }
 
 #home {
@@ -23,6 +25,36 @@ body {
     height: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+    background: -webkit-linear-gradient(top left, #FFF 50%, #8a0707 50%);
+    background: -o-linear-gradient(top left, #FFF 50%, #8a0707 50%);
+    background: linear-gradient(to bottom right, #FFF 50%, #8a0707 50%);
+}
+
+#home .title {
+    text-align: center;
+    font-family: 'elemental_endregular';
+    font-size: 100px;
+    color:#FFF;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top:-45px;
+}
+
+#home .title span {
+    color:#000;
+}
+
+.title .subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    color:#000;
+    text-transform: none;
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    font-weight: 700;
 }
 
 a:hover {
@@ -30,7 +62,7 @@ a:hover {
 }
 
 header {
-    padding: 25px 80px 0px 80px;
+    padding: 25px 110px 0px 80px;
     color: #8a0707;
     letter-spacing: 0.2em;
     font-variant: small-caps;
