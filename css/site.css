@@ -1,6 +1,30 @@
 @import 'fonts.css';
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+html, body, .container-fluid {
+    height:100%;
+}
+
+body {
+    display: block;
+    background-color: #FFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+#home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 a:hover {
     text-decoration: none;
 }
