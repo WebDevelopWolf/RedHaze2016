@@ -14,9 +14,21 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+    font-family: 'elemental_endregular';
+    font-size: 48px;
+    letter-spacing: 0.2em;
+    font-variant: small-caps;
+}
+
 .container-fluid {
     padding-right:0px;
     padding-left:0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 #home {
@@ -40,7 +52,7 @@ body {
     transform: translateY(-50%);
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    margin-top:-45px;
+    margin-top:35px;
 }
 
 #home .title span {
@@ -62,10 +74,20 @@ a:hover {
 }
 
 header {
+    position: fixed;
+    width: 100%;
     padding: 25px 110px 0px 80px;
     color: #8a0707;
     letter-spacing: 0.2em;
     font-variant: small-caps;
+    transition: all 0.4s ease;
+}
+
+header.sticky {
+  line-height: 48px;
+  height: 100px;
+  background: #FFF;
+  color:#000;
 }
 
 .logo {
@@ -74,6 +96,7 @@ header {
 }
 
 nav {
+    position: relative;
     margin-top:10px;
 }
 
@@ -90,4 +113,43 @@ nav a:hover {
 
 nav a:last-child {
     margin-right:0px;
+}
+
+#testimonial {
+    background: #000 url('../images/testimonials-bg.png') repeat;
+    padding: 135px 0px 45px 0px;
+    font-family: 'juramedium';
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    color: #FFF;
+    text-align: center
+}
+
+#testimonal h1 {
+    color:#FFF;
+}
+
+#testimonials {
+    margin: 85px 0px;
+}
+
+.carousel-indicators {
+    top: 60px;
+}
+
+.carousel-indicators li {
+    background-color: #FFF;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #8a0707;
+    border: 1px solid #8a0707;
+}
+
+.carousel-caption {
+    position: relative;
+    color: #8a0707;
 }
