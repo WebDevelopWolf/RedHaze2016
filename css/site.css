@@ -50,6 +50,11 @@ section {
     margin-top:30px;
 }
 
+.no-gutter {
+    padding-right:0;
+    padding-left:0;
+}
+
 #home {
     position: relative;
     width: 100%;
@@ -173,7 +178,7 @@ nav a:last-child {
 
 #books {
     background: #1f1f1f;
-    padding: 85px 0px 45px 0px;
+    padding: 0px 0px 45px 0px;
     font-size: 14px;
     font-variant: small-caps;
 }
@@ -186,3 +191,37 @@ nav a:last-child {
     margin-top: 95px;
 }
 
+#about {
+    background: #FFF;
+    padding:0px;
+    font-family: 'antic_didoneregular';
+    color: #000;
+    font-size: 12px;
+}
+
+.rotate {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    text-align: justify;
+}
+
+.rotate img {
+    margin:0px 7px 7px 0px; 
+}
+
+#about h3 {
+    font-family: '3_times_recycled_old_newspaRg';
+    font-size: 65px;
+}
+
+.author-bottom {
+    margin-top:50px;
+}
+
+#more {
+    margin-top: -100px;
+    background: #8a0707;
+}
