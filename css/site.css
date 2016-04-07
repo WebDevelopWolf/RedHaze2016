@@ -224,4 +224,56 @@ nav a:last-child {
 #more {
     margin-top: -100px;
     background: #8a0707;
+    font-family: 'juramedium';
+    color: #FFF;
+    font-size: 16px;
+}
+
+#more h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+#more h1, #more div {
+    color: #1f1f1f;
+}
+
+#more h1 span {
+    color:#FFF;
+}
+
+.more-quotes {
+    color: #FFF !important;
+    margin-top:60px;
+}
+
+.more-quotes span {
+    color: #1f1f1f !important;
+}
+
+#buy {
+    background: #000 url('../images/buy-bg.png') repeat;
+    padding: 70px 0px 85px 0px;
+}
+
+#buy h1 {
+    color: #FFF;
+}
+
+#buy a {
+    margin-top:40px;
+    color:#8a0707;
+}
+
+#buy a span {
+    color:#000;
+}
+
+footer {
+    background: #000;
+    color:#FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size:14;
+    padding: 15px 20px 15px 20px;
 }
